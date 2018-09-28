@@ -29,6 +29,7 @@
 		69BD3EEE21573648006A9589 /* ray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ray.h; path = RaytracerInOneWeekend/ray.h; sourceTree = SOURCE_ROOT; };
 		69BD3EF221587613006A9589 /* hitable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hitable.h; sourceTree = "<group>"; };
 		69BD3EF3215876D3006A9589 /* sphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sphere.h; sourceTree = "<group>"; };
+		69BD3EF4215DB0A5006A9589 /* hitable_list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hitable_list.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +67,7 @@
 				69BD3EEA21573648006A9589 /* vec3.h */,
 				69BD3EF221587613006A9589 /* hitable.h */,
 				69BD3EF3215876D3006A9589 /* sphere.h */,
+				69BD3EF4215DB0A5006A9589 /* hitable_list.h */,
 			);
 			path = RayTracerInOneWeekend;
 			sourceTree = "<group>";
