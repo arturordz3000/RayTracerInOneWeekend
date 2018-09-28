@@ -6,11 +6,6 @@
 
 std::ofstream out("image.ppm");
 
-void set_file()
-{
-    std::cout.rdbuf(out.rdbuf());
-}
-
 vec3 color(const ray& r, hitable *world)
 {
     hit_record rec;
@@ -33,7 +28,7 @@ vec3 color(const ray& r, hitable *world)
 
 int main()
 {
-    set_file();
+    std::cout.rdbuf(out.rdbuf());
     
     int width = 200;
     int height = 100;
